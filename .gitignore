@@ -1,19 +1,45 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Dependencies
+node_modules/
 
-# dependencies
-/node_modules
+# Build outputs (Vite uses dist/)
+dist/
+dist-ssr/
+build/
 
-# testing
-/coverage
+# Tests
+coverage/
 
-# production
-/build
+# TypeScript
+*.tsbuildinfo
 
-# misc
-.DS_Store
+# Vite
+.vite/
+
+# Environment variables
+.env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*.local
 
+# Logs
+logs/
+*.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
