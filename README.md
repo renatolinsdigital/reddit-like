@@ -51,3 +51,9 @@ Handled via the `useResponsiveBooleans` hook, which combines pre-defined breakpo
 ## Out of scope
 
 Routing, animations, auth, pagination, dark mode, translations, error handling, real API integration.
+
+## Documentation
+
+- [docs/code-style.md](docs/code-style.md) — coding conventions, TypeScript rules, file naming, import order, and testing guidelines.
+- [docs/styled-components.md](docs/styled-components.md) — how theming, `ThemeProvider`, and styled components are structured.
+- [docs/redux.md](docs/redux.md) — store setup, slices, async thunks, and how to use `useSelector`/`useDispatch` in components.
