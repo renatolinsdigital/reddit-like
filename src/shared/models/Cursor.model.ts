@@ -1,0 +1,25 @@
+type Cursor =
+  | 'auto'
+  | 'wait'
+  | 'text'
+  | 'move'
+  | 'help'
+  | 'none'
+  | 'cell'
+  | 'copy'
+  | 'grab'
+  | 'alias'
+  | 'no-drop'
+  | 'default'
+  | 'pointer'
+  | 'zoom-in'
+  | 'progress'
+  | 'grabbing'
+  | 'zoom-out'
+  | 'crosshair'
+  | 'all-scroll'
+  | 'not-allowed'
+  | 'context-menu'
+  | 'vertical-text';
+
+export default Cursor;
